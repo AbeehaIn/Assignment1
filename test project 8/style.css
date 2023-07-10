@@ -1,0 +1,357 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  nav ul li a {
+    color: black;
+    font-family: "Roboto",sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    border: 0px ;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+  }
+  nav ul li.larger-button {
+    display: inline-block;
+    margin-left: 40px; /* Increase the margin-left value to create space before the larger button */
+    margin-right: 10px; /* Add a margin-right value to increase the distance from other buttons */
+  }
+
+  nav ul li.larger-button a {
+    color: white;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 12px 25px; /* Adjust the padding as desired to make the button larger */
+    background-color: rgb(255, 191, 0);
+    border-radius: 5px;
+    outline: none;
+  }
+  nav ul li.larger-button a i {
+    margin-right: 15px; /* Add some space between the icon and the button text */
+  }
+  
+  
+  nav ul li a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  main {
+    text-align: center;
+    margin-top: 50px; /* Adjust the margin-top value to create space between navbar and content */
+  }
+  
+  .centered-text {
+    margin-bottom: 20px;
+    color: rgb(22, 22, 89);
+    position: relative; /* Add 
+    /* Add margin-bottom to create space between the text and button */
+  }
+  
+  .bold-text {
+    font-weight: bold;
+    color: rgb(22, 22, 89);
+    font-family: "Roboto",sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .blue-button {
+    background-color: rgb(22, 22, 89);
+    color: white;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+
+  }
+  
+  
+  .blue-button {
+    /* Existing styles for the blue button */
+    margin-bottom: 20px; /* Add a margin-bottom value to create space between the button and the image */
+  }
+  
+  .centered-text img {
+    display: block; /* Set the image as a block-level element */
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+}
+.text-container {
+    margin-top: 100px; /* Add margin-top to create space between the image and the text */
+    text-align: center; 
+    color: rgb(141, 141, 246);/* Center the text horizontally */
+  }
+  .card-container {
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .card {
+    width: 300px;
+    margin: 10px;
+    border: 0px solid gray;
+    border-radius: 5px;
+    /* text-align: center; */
+    box-shadow: 0 4px 8px 0 rgba(209, 205, 205, 0.2), 0 6px 20px 0 rgba(209, 205, 205, 0.2);
+
+  }
+  
+
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+ .card-content {
+    margin-top: 10px;
+    font-family: "Roboto",sans-serif;
+    margin-bottom: 20px;
+
+  }
+
+  .card-line {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+  }
+  .card-line2 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: "Roboto",sans-serif;
+    font-size: 12px;
+  }
+  
+  .bold-blue-text {
+    font-weight: bold;
+    color:rgb(22, 22, 89);
+    /* order: 1;  */
+  }
+   
+  .light-blue-text {
+    color: rgb(141, 163, 245);
+    /* order: 2;  */
+  }
+   
+  .light-blue-bg {
+    background-color: rgb(241, 245, 255);
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .dark-blue-text {
+    color: darkblue; 
+    margin-left: 10px;
+
+}
+
+#container {
+    display: flex;
+    height: 100vh;
+    margin-top: 100px;
+
+}
+
+#image-div, #text-div {
+    /* flex-grow: 1; */
+    padding: 20px;
+    /* box-sizing: border-box; */
+    text-align: left;
+}
+
+#image-div img {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+#text-div h2 {
+    margin-bottom: 10px;
+}
+
+#text-div p {
+    /* font-size: 18px; */
+    line-height: 1.5;
+}
+
+.bold-text2 {
+    font-weight: bold;
+    color: rgb(22, 22, 89);
+    font-family: "Roboto",sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+.larger-button2 {
+    color: white; 
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    padding: 12px 25px; /* Adjust the padding as desired to make the button larger */
+    background-color: rgb(255, 191, 0);
+    border-radius: 5px;
+    align-items: center;
+    list-style: none;
+    display: inline-block;
+  }
+
+
+#container1 {
+    /* justify-content: center; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-height: 30%; 
+    border-radius: 12px;
+}
+.container1.fa{
+  position: fixed;
+  right: 0;
+  justify-content: center;
+  position: absolute;
+  justify-content: center; 
+  margin-top: -250px;  
+  
+  }
+
+#centered-image {
+    max-width: 70%;
+    max-height: 500px;
+    
+    /* border-radius: 90%; */
+}
+.image-line {
+  display: flex;
+}
+
+.last-image {
+  max-width: 10%;
+  max-height: 20vh;
+  /* flex-shrink: 0; */
+}
+.img1 {
+  max-width: 20%;
+  max-height: 20vh; /* Adjust the height as per your needs */
+}
+
+.footer {
+  background-color: darkblue;
+  padding: 20px;
+  color: white;
+  display: grid;
+  grid-template-columns: auto 1fr 1fr 1fr;
+  grid-gap: 2px;
+  margin-left: -650px;
+  margin-bottom: 0px;
+
+  /* text-align: center; */
+}
+
+.footer-column1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.footer-column2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: -750px;
+  margin-bottom: 0px;
+}
+.footer-column3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: -550px;
+  margin-bottom: 0px;
+}
+
+.footer-column4 {
+  display: flex;
+  flex-direction: column;
+  margin-left: -350px;
+  margin-bottom: 0px;
+}
+
+.footer-column:first-child {
+  /* justify-content: left; */
+  align-items: left;
+}
+
+.footer-heading {
+  font-weight: bold;
+}
+
+.footer-menu {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+  color: rgb(162, 178, 245); 
+}
+
+.footer-menu li {
+  margin-bottom: 5px;
+}
+
+.orange-text {
+  color: orange;
+}
+
+/* .footer-bottom {
+  grid-column: 1 / -1;
+  margin-bottom: 0px;
+} */
+
+.plain-text {
+  font-weight: normal;
+  color: rgb(162, 178, 245); 
+}
+
+
+
+
+.logo2 {
+  max-width: 7%;
+  max-height: 6vh;
+  /* margin-bottom: 20px; */
+  /* align-items: left;
+  justify-content: left;  */
+}
